@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script language="javascript" src="script/script.js"></script>
+    </head>
+
+    <body>
+        
+        <h1>Projet : visualisation d'un jeu de données issues de stackOverflow</h1>
+        <div id="Selectors"></div>
+        <div>
+            <h2>Focus sur le revenu moyen en fonction de l'expérience professionnelle</h2>
+            <div>
+                <p>
+                    Calculer et afficher via la chart de votre choix le revenu moyen
+                    d'un professionnel en fonction de son nombre d'années d'expérience.
+                    L'utilisateur pourra choisir un continent, un pays, et la valeur
+                    des revenus moyens devra toujours être affichée en euros.
+                </p>
+                <div id="LimitCountrySelector11"></div>
+                <div id="divChart11">
+                    <canvas id="Chart11"></canvas>
+                </div>
+            </div>
+            <div>
+                <p>
+                    Calculer et afficher via la chart de votre choix le revenu moyen d'un professionnel en
+                    fonction de son niveau d'études. De la même manière que ci-dessus, l'utilisateur
+                    devra pouvoir sélectionner un continent et un pays.
+
+                </p>
+                <div id="LimitCountrySelector12"></div>
+                <div id="divChart12">
+                    <canvas id="Chart12"></canvas>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h2>Focus sur le revenu moyen en fonction des compétences techniques</h2>
+            <div>
+                <p>
+                    Calculer et afficher via la chart de votre choix le revenu moyen d'un professionnel en
+                    fonction des plateformes de cloud avec lesquelles il a travaillé. L'utilisateur pourra
+                    filtrer les données en sélectionnant un nombre d'années d'expérience particulier, un
+                    continent et un pays.
+                </p>
+                <h3>Graphique des salaires moyens en fonction de la plateforme cloud utilisée</h3>
+                <div id="LimitYearSelector21"></div>
+                <div id="LimitCountrySelector21"></div>
+                <div id="divChart21">
+                    <canvas id="Chart21"></canvas>
+                </div>
+            </div>
+            <div>
+                <p>
+                    Calculer et afficher via la chart de votre choix le revenu moyen d'un professionnel en
+                    fonction des frameworks de développement web avec lesquels il a travaillé.
+                    L'utilisateur pourra filtrer les données en sélectionnant un nombre d'années
+                    d'expérience particulier, un continent et un pays.
+                </p>
+                <h3>Graphique des salaires moyens en fonction du framework web utilisé</h3>
+                <div id="LimitYearSelector22"></div>
+                <div id="LimitCountrySelector22"></div>
+                <div id="divChart22">
+                    <canvas id="Chart22"></canvas>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h2>Focus sur les technologies les plus utilisées</h2>
+            <div>
+                <p>
+                    Afficher, sous la forme de la chart de votre choix, le top 5 des systèmes d'exploitation
+                    utilisés par les professionnels dans le cadre de leur travail en fonction de leur métier
+                    (DevType) et de leur continent. L'utilisateur pourra choisir d'étendre les données au
+                    top 6, 7, 8.
+                </p>
+                <h3>Graphique des systèmes d'exploitation les plus utilisés en fonction du job</h3>
+                <div id="JobSelector31"></div>
+                <div id="LimitJobSelector31"></div>
+                <div id="divChart31">
+                    <canvas id="Chart31"></canvas>
+                </div>
+            </div>
+            <div>
+                <p>
+                    Afficher, sous la forme de la chart de votre choix, le top 5 des outils de
+                    communication utilisés par les professionnels dans le cadre de leur travail en
+                    fonction de leur métier (DevType) et de leur continent. L'utilisateur pourra choisir
+                    d'étendre les données au top 6, 7, 8.
+                </p>
+                <h3>Graphique des outils de communication les plus utilisés en fonction du job</h3>
+                <div id="JobSelector32"></div>
+                <div id="LimitJobSelector32"></div>
+                <div id="divChart32">
+                    <canvas id="Chart32"></canvas>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
